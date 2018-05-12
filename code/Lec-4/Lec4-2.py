@@ -19,6 +19,8 @@ if input == '안녕':
     hello()
 elif input == '사랑해':
     metoo()
+elif input == '좋아해':
+    metoo()
 elif input == '반복더하기':
     num = int(input('1부터 어디까지를 더한 합이죠? : '))
     print('1부터 ' + num + '까지를 더한 합은 ' + repeatsum(num) + '입니다.')
